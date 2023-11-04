@@ -2,9 +2,7 @@
 
 This repository contains the configuration files used to modify the "hyprland" and various other packages on Arch Linux.
 
-## Configuration Files
-
-- `Total 37 Files :`  
+## Configuration Files 
 | Index | Name            | Info about Package              |
 |-------|-----------------|---------------------------------|
 | 1     | btop            | System resource monitor         |
