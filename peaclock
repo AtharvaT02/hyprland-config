@@ -67,7 +67,7 @@ mode clock
 # set the view type
 # select one of:
 # date, ascii, digital, binary, or icon
-view digital
+view binary
 
 # set the value to adjust with the hjkl;' keys
 # select one of:
@@ -106,7 +106,7 @@ rate-status 5000
 set hour-24 on
 
 # display seconds
-set seconds on
+set seconds off
 
 # display the date
 set date on
@@ -142,15 +142,15 @@ set auto-ratio on
 
 # set the style of the text set by the command 'fill' used to draw active
 # blocks in the clock
-style active-fg green
+style active-fg clear
 
 # set the style of the text set by the command 'fill' used to draw inactive
 # blocks in the clock
-style inactive-fg green
+style inactive-fg clear
 
 # set the style of the text set by the command 'fill-colon' used to draw colon
 # blocks in the clock
-style colon-fg cyan
+style colon-fg clear
 
 # set the style of the background used to draw active blocks in the clock
 style active-bg reverse
@@ -159,10 +159,10 @@ style active-bg reverse
 style inactive-bg clear
 
 # set the style of the background used to draw colon blocks in the clock
-style colon-bg cyan
+style colon-bg clear
 
 # set the style of the date
-style date cyan
+style date clear
 
 # set the style of the background
 style background clear

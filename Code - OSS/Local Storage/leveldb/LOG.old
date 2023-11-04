@@ -1,2 +1,3 @@
-2023/10/31-21:24:16.014 29ae Creating DB /home/lonewalker/.config/Code - OSS/Local Storage/leveldb since it was missing.
-2023/10/31-21:24:16.022 29ae Reusing MANIFEST /home/lonewalker/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2023/11/04-21:48:26.588 18cb0 Reusing MANIFEST /home/lonewalker/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2023/11/04-21:48:26.589 18cb0 Recovering log #3
+2023/11/04-21:48:26.589 18cb0 Reusing old log /home/lonewalker/.config/Code - OSS/Local Storage/leveldb/000003.log 

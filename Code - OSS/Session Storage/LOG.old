@@ -1,2 +1,3 @@
-2023/10/31-21:24:49.082 29ae Creating DB /home/lonewalker/.config/Code - OSS/Session Storage since it was missing.
-2023/10/31-21:24:49.090 29ae Reusing MANIFEST /home/lonewalker/.config/Code - OSS/Session Storage/MANIFEST-000001
+2023/11/04-21:59:53.907 18cb0 Reusing MANIFEST /home/lonewalker/.config/Code - OSS/Session Storage/MANIFEST-000001
+2023/11/04-21:59:53.907 18cb0 Recovering log #3
+2023/11/04-21:59:53.907 18cb0 Reusing old log /home/lonewalker/.config/Code - OSS/Session Storage/000003.log 

@@ -1,0 +1,2 @@
+2023-11-04 22:00:12.402 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/lonewalker/output.txt","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-11-04 22:00:16.098 [info] [perf] Render performance baseline is 167ms

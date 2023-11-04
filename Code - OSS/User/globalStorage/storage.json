@@ -3,7 +3,7 @@
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
-            "1698767656888": "__default__profile__"
+            "1699114707058": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -13,19 +13,19 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1698767656888"
+                "backupFolder": "1699114707058"
             }
         ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/lonewalker/.config/Code - OSS/Backups/1698767656888",
+            "backupPath": "/home/lonewalker/.config/Code - OSS/Backups/1699114707058",
             "uiState": {
                 "mode": 1,
-                "x": 673,
-                "y": 801,
-                "width": 208,
-                "height": 234
+                "x": 487,
+                "y": 44,
+                "width": 466,
+                "height": 489
             }
         },
         "openedWindows": []
@@ -75,6 +75,20 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/lonewalker/output.txt",
+                                        "path": "/home/lonewalker/output.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/output.txt"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.openRecent",
                                     "label": "&&More..."
                                 },
@@ -116,8 +130,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -591,6 +604,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -679,8 +699,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -1346,6 +1365,11 @@
                 "label": "Ctrl+K Ctrl+\\",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
+            },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
