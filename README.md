@@ -1,12 +1,17 @@
 # hyprland Configuration Repository
 
-This repository contains the configuration files used to develop the "hyprland" project on Arch Linux.
+This repository contains the configuration files used to modify the "hyprland" and various other packages on Arch Linux.
 
 ## Configuration Files
 
-- `config_file_1.conf`: Description of config_file_1.
-- `config_file_2.yml`: Description of config_file_2.
-- ...
+- `Total 37 Files :`  
+ btop          gtk-3.0      mako              peaclock        swaylock-back   wofi-back
+ chromium      htop         mako-back         pulse           Thunar          xfce4
+ Code - OSS    hypr         menus             qt5ct           waybar
+ dconf         hypr-back    mimeapps.list     README.md       waybar-back
+ Electron      HyprV        neofetch          ScreenShots     wlogout
+ glava         kitty        nvim              starship.toml   wlogout-back
+ gtk-2.0       kitty-back   pavucontrol.ini   swaylock        wofi
 
 ## Screenshots
 
