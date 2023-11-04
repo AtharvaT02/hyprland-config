@@ -20,5 +20,5 @@ Here are some screenshots of the "hyprland" project:
 You can clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/hyprland-config.git
+git clone https://github.com/AtharvaT02/hyprland-config.git
 
