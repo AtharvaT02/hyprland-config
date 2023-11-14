@@ -46,7 +46,7 @@
     },
     
     "custom/launch_wofi": {
-        "format": "󱗼",
+        "format": "󰣇",
         "on-click": "sh -c '(sleep 0.5s; pkill wofi || wofi -c ~/.config/HyprV/wofi/config-lmenu)' & disown",
         "tooltip": false
     },
@@ -59,7 +59,9 @@
         "on-click": "activate",
         "on-click-middle": "close",
         "ignore-list": [
-            "wofi"
+            "wofi",
+	    "obsidian",
+	     "GLava"
         ],
 	    "app_ids-mapping": {
 	        "steam_app_39210": "Final Fantasy 14"

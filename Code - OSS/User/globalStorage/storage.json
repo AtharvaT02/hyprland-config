@@ -22,9 +22,9 @@
             "backupPath": "/home/lonewalker/.config/Code - OSS/Backups/1699114707058",
             "uiState": {
                 "mode": 1,
-                "x": 487,
+                "x": 967,
                 "y": 44,
-                "width": 466,
+                "width": 941,
                 "height": 489
             }
         },
@@ -68,11 +68,21 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/lonewalker/Downloads/md.obsidian.Obsidian.flatpakref",
+                                        "path": "/home/lonewalker/Downloads/md.obsidian.Obsidian.flatpakref",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/md.obsidian.Obsidian.flatpakref"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -707,8 +717,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",

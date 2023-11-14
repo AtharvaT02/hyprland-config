@@ -1,2 +1,3 @@
-2023/11/01-00:38:56.390 736 Creating DB /home/lonewalker/.config/Electron/Local Storage/leveldb since it was missing.
-2023/11/01-00:38:56.400 736 Reusing MANIFEST /home/lonewalker/.config/Electron/Local Storage/leveldb/MANIFEST-000001
+2023/11/08-17:20:48.136 17c5 Reusing MANIFEST /home/lonewalker/.config/Electron/Local Storage/leveldb/MANIFEST-000001
+2023/11/08-17:20:48.137 17c5 Recovering log #3
+2023/11/08-17:20:48.137 17c5 Reusing old log /home/lonewalker/.config/Electron/Local Storage/leveldb/000003.log 
