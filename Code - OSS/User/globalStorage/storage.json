@@ -22,7 +22,7 @@
             "backupPath": "/home/lonewalker/.config/Code - OSS/Backups/1699114707058",
             "uiState": {
                 "mode": 1,
-                "x": 967,
+                "x": 12,
                 "y": 44,
                 "width": 941,
                 "height": 489
@@ -68,10 +68,44 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/lonewalker/.config/wofi/style.css",
+                                        "path": "/home/lonewalker/.config/wofi/style.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/wofi/style.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/lonewalker/.config/wofi/style",
+                                        "path": "/home/lonewalker/.config/wofi/style",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/wofi/style"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/lonewalker/.config/HyprV/waybar/conf/v4-config-bottom.jsonc",
+                                        "path": "/home/lonewalker/.config/HyprV/waybar/conf/v4-config-bottom.jsonc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/HyprV/waybar/conf/v4-config-bottom.jsonc"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -726,8 +760,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"

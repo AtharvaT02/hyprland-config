@@ -1,0 +1,2 @@
+2023-11-14 23:50:34.281 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/lonewalker/.config/wofi/style.css","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-11-14 23:50:39.812 [info] [perf] Render performance baseline is 179ms
