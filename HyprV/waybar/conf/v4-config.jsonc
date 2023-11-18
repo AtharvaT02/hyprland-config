@@ -8,12 +8,11 @@
     "height": 20,
     "modules-left": [
         "custom/power_btn",
-        "custom/lock_screen",
-	"hyprland/workspaces"
+	"hyprland/workspaces",
+	"wlr/taskbar"
     ],
     "modules-center": [
-        "idle_inhibitor",
-        "custom/updates"
+     	"clock"   
     ],
     "modules-right": [
 	"network",
@@ -25,7 +24,6 @@
         "temperature",
         "custom/power_profile",
         "battery",
-        "hyprland/language",
         "custom/myhyprv",
         "custom/light_dark"
     ],
@@ -65,21 +63,14 @@
         "tooltip": false
     },
 
-    "wlr/workspaces": {
+    "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "on-click": "activate",
         "persistent_workspaces": {
             "1": [],
             "2": [],
-            "3": [],
-            "4": [],
-            "5": [],
-            "6": [],
-            "7": [],
-            "8": [],
-            "9": [],
-            "10": []
+            "3": []
         }
     },
 
@@ -169,5 +160,21 @@
         "on-click": "~/.config/HyprV/waybar/scripts/update-sys update",
         "interval": 300,
         "tooltip": true
+    },
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 15,
+        "all-outputs": true,
+        "tooltip-format": "{name} - {title}",
+        "on-click": "activate",
+        "on-click-middle": "close",
+        "ignore-list": [
+            "wofi",
+            "obsidian",
+             "GLava"
+        ],
+            "app_ids-mapping": {
+                "steam_app_39210": "Final Fantasy 14"
+            }
     }
 }
